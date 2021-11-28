@@ -1,4 +1,4 @@
-const a = 20;
+const a = 101;
 const b = 60;
 const c = 100;
 
@@ -134,3 +134,29 @@ if ((a > b) && (a > c)) {
 	}
 
 	/*------------------------------ */
+
+
+	if ((a <= 100) && (a >= 0)) {
+
+		if (a >= 90) {
+			console.log("A");
+			return "A";
+		} else if (a >= 80) {
+			console.log("B");
+			return "B";
+		} else if (a >= 70) {
+			console.log("C");
+			return "C";
+		} else if (a >= 60) {
+			console.log("D");
+			return "D";
+		} else if (a >= 50) {
+			console.log("E");
+			return "E";
+		} else if (a < 50) {
+			console.log("F");
+			return "F";
+		}
+	} else {
+		console.log("Nota informada inválida")
+	}
