@@ -41,8 +41,10 @@ if(a < b){
 	return a;
 }
 
-/*------------------------------*/
+/*------------------------------
 
+
+/*  EXERCICIO 3    
 
 if ((a > b) && (a > c)) {
 	console.log(a);
@@ -54,3 +56,20 @@ if ((a > b) && (a > c)) {
 	console.log(c);
 	return c;
 }
+
+/*------------------------------ */
+
+
+
+	if(a > 0) {
+		console.log("Positive");
+		return;
+
+	}else if (a < 0) {
+		console.log("Negative");
+		return;
+
+	}else if (a === 0) {
+		console.log("Zero");
+		return;
+	}
