@@ -2,6 +2,8 @@ const a = 20;
 const b = 60;
 const c = 100;
 
+const pecaXadrez = "BISPO";
+
 /*  EXERCICIO 1    
 let qualOperacao = "Módulo";
 
@@ -74,8 +76,9 @@ if ((a > b) && (a > c)) {
 		return;
 	}
 
-	/*------------------------------ */
+	/*------------------------------ 
 
+	/*  EXERCICIO 5
 
 	if((typeof(a) === "number") && (typeof(b) === "number") && (typeof(c) === "number")) {
 
@@ -98,3 +101,36 @@ if ((a > b) && (a > c)) {
 	} else {
 		console.log("Tipo inválido");		
 	}
+
+	/*------------------------------ */
+
+	/*  EXERCICIO 6
+
+	switch (pecaXadrez.toLowerCase()) {
+
+		case ("peão") :
+			console.log("Um passo a frente");
+			break;
+
+		case ("torre") :
+			console.log("Move na vertical ou horizontal");
+			break;
+
+		case ("bispo") :
+			console.log("Move na diagonal");
+			break;
+
+		case ("cavalo") :
+			console.log("Move em L");
+			break;			
+
+		case ("rei") :
+			console.log("se move livremente");
+			break;
+
+		case ("rainha") :
+			console.log("Um passo em qualquer direção");
+			break;
+	}
+
+	/*------------------------------ */
