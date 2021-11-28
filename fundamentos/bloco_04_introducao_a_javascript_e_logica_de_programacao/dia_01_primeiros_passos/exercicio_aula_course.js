@@ -1,6 +1,6 @@
-const a = 101;
+const a = 20;
 const b = 60;
-const c = 100;
+const c = 10;
 
 const pecaXadrez = "BISPO";
 
@@ -135,6 +135,7 @@ if ((a > b) && (a > c)) {
 
 	/*------------------------------ */
 
+	/*  EXERCICIO 7
 
 	if ((a <= 100) && (a >= 0)) {
 
@@ -160,3 +161,13 @@ if ((a > b) && (a > c)) {
 	} else {
 		console.log("Nota informada inválida")
 	}
+
+	/*------------------------------ */
+
+if (((a % 2) === 0) || ((b % 2) === 0) || ((c % 2) === 0)) {
+	console.log("True");
+	return true;
+ }else {
+		console.log("False");
+		return true;
+ }
