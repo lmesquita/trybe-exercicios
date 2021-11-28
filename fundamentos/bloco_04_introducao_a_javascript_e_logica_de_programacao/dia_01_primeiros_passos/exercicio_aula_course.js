@@ -1,6 +1,6 @@
 const a = 20;
-const b = 10;
-const c = 10;
+const b = 60;
+const c = 100;
 
 /*  EXERCICIO 1    
 let qualOperacao = "Módulo";
@@ -57,9 +57,9 @@ if ((a > b) && (a > c)) {
 	return c;
 }
 
-/*------------------------------ */
+/*------------------------------ 
 
-
+/*  EXERCICIO 4
 
 	if(a > 0) {
 		console.log("Positive");
@@ -72,4 +72,29 @@ if ((a > b) && (a > c)) {
 	}else if (a === 0) {
 		console.log("Zero");
 		return;
+	}
+
+	/*------------------------------ */
+
+
+	if((typeof(a) === "number") && (typeof(b) === "number") && (typeof(c) === "number")) {
+
+		if((a > 0) && (b > 0) && (c > 0)) {
+	
+			if (( a + b + c) === 180) {
+				console.log("True");
+				return true;
+			} else {
+					console.log("False");
+					return false;
+			} 
+		
+		}else {
+				console.log("False");
+				return false;
+		}
+
+
+	} else {
+		console.log("Tipo inválido");		
 	}
