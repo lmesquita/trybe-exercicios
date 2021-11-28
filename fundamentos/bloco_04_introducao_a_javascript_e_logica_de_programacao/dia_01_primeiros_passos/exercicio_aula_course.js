@@ -1,5 +1,5 @@
-const a = 20;
-const b = 60;
+const a = 30;
+const b = 20;
 const c = 10;
 
 const pecaXadrez = "BISPO";
@@ -174,9 +174,9 @@ if (((a % 2) === 0) || ((b % 2) === 0) || ((c % 2) === 0)) {
 		return true;
  }
 
- 	/*------------------------------ */
+ 	/*------------------------------ 
 
-/*  EXERCICIO 9 */
+/*  EXERCICIO 9 
 
 if (((a % 2) !== 0) || ((b % 2) !== 0) || ((c % 2) !== 0)) {
 	console.log("True");
@@ -187,3 +187,13 @@ if (((a % 2) !== 0) || ((b % 2) !== 0) || ((c % 2) !== 0)) {
  }
 
  	/*------------------------------ */
+
+let custoTotal = c * 1.2;
+
+if ((a > 0) && (c > 0)) {
+	console.log(a - custoTotal);
+	return;
+} else {
+	console.log("Valores informados inválidos")
+	return;
+}
