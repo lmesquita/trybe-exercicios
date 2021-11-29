@@ -19,7 +19,7 @@ console.log("A soma dos números é:", soma);
 
 /*---------------------------------------- */
 
-//---------- EXERCÍCIO 3 ---------- 
+/*--------- EXERCÍCIO 3 ---------- 
 let cont =0;
 let media = 0;
 
@@ -29,5 +29,15 @@ for (let x =0; x < numbers.length; x++) {
 
 media = (cont / numbers.length);
 console.log("A média dos números é:", media);
+
+/*---------------------------------------- /
+
+//---------- EXERCÍCIO 4 ---------- 
+
+if (media > 20) {
+    console.log("Valor maior que 20");
+} else {
+    console.log("Valor menor ou igual a 20");
+}
 
 /*---------------------------------------- */
