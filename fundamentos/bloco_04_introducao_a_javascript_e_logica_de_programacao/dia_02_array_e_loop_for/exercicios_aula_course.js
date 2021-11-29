@@ -8,7 +8,7 @@ for (let x =0; x < numbers.length; x++) {
 
 /*---------------------------------------- */
 
-//---------- EXERCÍCIO 2 ---------- 
+/*---------- EXERCÍCIO 2 ---------- 
 let soma =0;
 
 for (let x =0; x < numbers.length; x++) {
@@ -16,5 +16,18 @@ for (let x =0; x < numbers.length; x++) {
 }
 
 console.log("A soma dos números é:", soma);
+
+/*---------------------------------------- */
+
+//---------- EXERCÍCIO 3 ---------- 
+let cont =0;
+let media = 0;
+
+for (let x =0; x < numbers.length; x++) {
+    cont += numbers[x];
+}
+
+media = (cont / numbers.length);
+console.log("A média dos números é:", media);
 
 /*---------------------------------------- */
