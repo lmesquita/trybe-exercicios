@@ -41,3 +41,35 @@ if (media > 20) {
 }
 
 /*---------------------------------------- */
+
+/*---------- EXERCÍCIO 5 ---------- 
+
+let eMaior = 0;
+
+for (let x =0; x < numbers.length; x++) {
+    if (numbers[x] > eMaior) {
+        eMaior = numbers[x];
+    } 
+}
+
+console.log("O maior número da lista é:", eMaior);
+
+/*---------------------------------------- */
+
+//---------- EXERCÍCIO 6 ---------- 
+
+let impares = 0;
+
+for (let x =0; x < numbers.length; x++) {
+    if ((numbers[x] % 2) !== 0) {
+        impares++;
+    } 
+}
+
+if (!impares) {
+    console.log("Nenhum valor ímpar encontrado");
+} else {
+    console.log("Existem", impares , "números ímpares na lista.");
+}
+
+/*---------------------------------------- */
