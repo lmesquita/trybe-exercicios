@@ -98,6 +98,9 @@ for (let x =0; x < numbers.length; x++) {
 console.log("O menor número da lista é:", eMenor);
 */
 /*---------------------------------------- */
+
+//---------- EXERCÍCIO 8 ---------- 
+
 let ateVinteEcinco = [];
 
 for (let x = 0; x < 25; x++) {
@@ -105,3 +108,16 @@ for (let x = 0; x < 25; x++) {
 }
 
 console.log("O resultado:", ateVinteEcinco);
+
+/*---------------------------------------- */
+
+//---------- EXERCÍCIO 9 ---------- 
+
+let divide = [];
+
+for (let x = 0; x < 25; x++) {
+    divide[x] = (ateVinteEcinco[x] / 2);
+}
+
+console.log("O resultado da divisão de cada um dos elementos por 2:", divide);
+
