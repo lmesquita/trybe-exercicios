@@ -56,7 +56,7 @@ console.log("O maior número da lista é:", eMaior);
 
 /*---------------------------------------- */
 
-//---------- EXERCÍCIO 6 ---------- 
+/*---------- EXERCÍCIO 6 ---------- 
 
 let impares = 0;
 
@@ -72,4 +72,29 @@ if (!impares) {
     console.log("Existem", impares , "números ímpares na lista.");
 }
 
+/*---------------------------------------- */
+
+//---------- EXERCÍCIO 7 ---------- 
+
+/*
+///MESMA FUNÇÃO PORÉM SEM O USO DO FOR////
+
+let eMenor = numbers.sort(function(a, b){return a - b});
+eMenor = numbers[0];
+
+console.log(eMenor);
+*/
+
+/*
+///MESMA FUNÇÃO PORÉM COM O USO DO FOR////
+let eMenor = 999999;
+
+for (let x =0; x < numbers.length; x++) {
+    if (numbers[x] < eMenor) {
+        eMenor = numbers[x];
+    } 
+}
+
+console.log("O menor número da lista é:", eMenor);
+*/
 /*---------------------------------------- */
