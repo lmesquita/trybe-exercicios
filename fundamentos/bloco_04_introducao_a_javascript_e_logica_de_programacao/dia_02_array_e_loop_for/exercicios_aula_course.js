@@ -98,3 +98,10 @@ for (let x =0; x < numbers.length; x++) {
 console.log("O menor número da lista é:", eMenor);
 */
 /*---------------------------------------- */
+let ateVinteEcinco = [];
+
+for (let x = 0; x < 25; x++) {
+    ateVinteEcinco[x] = x + 1;
+}
+
+console.log("O resultado:", ateVinteEcinco);
