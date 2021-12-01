@@ -111,7 +111,7 @@ console.log("O resultado:", ateVinteEcinco);
 
 /*---------------------------------------- */
 
-//---------- EXERCÍCIO 9 ---------- 
+/*---------- EXERCÍCIO 9 ---------- 
 
 let divide = [];
 
@@ -121,3 +121,4 @@ for (let x = 0; x < 25; x++) {
 
 console.log("O resultado da divisão de cada um dos elementos por 2:", divide);
 
+/*---------------------------------------- */
