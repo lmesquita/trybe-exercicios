@@ -10,11 +10,19 @@ console.log("Bem vinda, " + info.personagem);
 
 /*----------------------------------------*/
 
-/*---------- EXERCÍCIO 2 ----------*/
+//*---------- EXERCÍCIO 2 ----------
 
 
 info['recorrente'] = 'Sim';
 
-console.log(info);
+//console.log(info);
+
+/*----------------------------------------*/
+
+//*---------- EXERCÍCIO 2 ----------
+
+for(let test in info){
+	console.log(test);
+}
 
 /*----------------------------------------*/
