@@ -10,12 +10,12 @@ console.log("Bem vinda, " + info.personagem);
 
 /*----------------------------------------*/
 
-/*---------- EXERCÍCIO 2 ----------
+//*---------- EXERCÍCIO 2 ----------
 
 
 info['recorrente'] = 'Sim';
 
-console.log(info);
+//console.log(info);
 
 /*----------------------------------------*/
 
@@ -33,4 +33,18 @@ for (let aux in info) {
   console.log(info[aux]);
 }
 
+/*----------------------------------------*/
+
+//*---------- EXERCÍCIO 5 ----------
+
+let segundaInfo = {
+	personagem: 'Tio Patinhas',
+	origem: 'Christmas on Bear Mountain, Dells Four Color Comics #178',
+	nota: 'O último MacPatinhas',
+	recorrente: 'Sim',
+}
+
+for (let aux in segundaInfo) {
+	console.log(segundaInfo[aux]);
+}
 /*----------------------------------------*/
