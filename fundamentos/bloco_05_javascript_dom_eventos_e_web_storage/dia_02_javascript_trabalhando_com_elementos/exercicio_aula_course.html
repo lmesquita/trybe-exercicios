@@ -58,15 +58,28 @@
   <body>
     <script>
 
+// EXERCÍCIO 1 -----------------------
       function createH1(textoTitulo){
-        let recebe = document.querySelector('body')
+        let recebe = document.querySelector('body');
         let cria = document.createElement('h2');
         cria.innerText = textoTitulo;
         recebe.appendChild(cria);
       }
 
       createH1("Exercício 5.2 - JavaScript DOM");
+// -----------------------------------------------
 
+// EXERCÍCIO 2 -----------------------
+
+      function createMain (classeMain) {
+        let recebe = document.querySelector('body');
+        let cria = document.createElement('main');
+        cria.className = classeMain;
+        recebe.appendChild(cria);
+      }
+
+      createMain("main-content");
+// -----------------------------------------------
     </script>
   </body>
 </html>
