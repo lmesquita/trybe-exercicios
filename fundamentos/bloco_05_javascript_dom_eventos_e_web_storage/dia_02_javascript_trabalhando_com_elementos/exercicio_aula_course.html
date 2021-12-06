@@ -57,7 +57,16 @@
   </head>
   <body>
     <script>
-      // COLOQUE SEU CÓDIGO AQUI
+
+      function createH1(textoTitulo){
+        let recebe = document.querySelector('body')
+        let cria = document.createElement('h2');
+        cria.innerText = textoTitulo;
+        recebe.appendChild(cria);
+      }
+
+      createH1("Exercício 5.2 - JavaScript DOM");
+
     </script>
   </body>
 </html>
