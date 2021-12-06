@@ -80,6 +80,18 @@
 
       createMain("main-content");
 // -----------------------------------------------
+
+// EXERCÍCIO 3 -----------------------
+
+      function createSection(classeSection) {
+        let recebe = document.querySelector('main');
+        let cria = document.createElement('section');
+        cria.className = classeSection;
+        recebe.appendChild(cria);
+      }
+
+      createSection("center-content");
+// -----------------------------------------------
     </script>
   </body>
 </html>
