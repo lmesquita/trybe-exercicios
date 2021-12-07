@@ -24,6 +24,14 @@ function createDaysOfTheMonth() {
       const dayListItem = document.createElement('li');
       dayListItem.innerHTML = days;
       dayListItem.className = 'day';
+
+      if ((dezDaysList[index] === 24) || (dezDaysList[index] === 25) || (dezDaysList[index] === 31)) {
+				dayListItem.className += ' holiday';
+      }
+			
+			if ((dezDaysList[index] === 4) || (dezDaysList[index] === 11) || (dezDaysList[index] ===18) || (dezDaysList[index] === 25)) {
+				dayListItem.className += ' friday';
+			}
   
       monthDaysList.appendChild(dayListItem);
     };
