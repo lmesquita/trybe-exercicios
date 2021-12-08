@@ -41,7 +41,7 @@ function createDaysOfTheMonth() {
   
   createDaysOfTheMonth();
 
-	// ----------------------------------------
+// ----------------------------------------
 
 // EXERCÍCIO 2 --------------------
 
@@ -56,3 +56,25 @@ function criaBotaoFeriado(string) {
 
 let feriado = 'Feriados';
 criaBotaoFeriado(feriado);
+
+// ----------------------------------------
+
+// EXERCÍCIO 3 --------------------
+
+function alteraCor() {
+	let btnFeriado = document.getElementById('btn-holiday');
+	let coloreFeriado = document.querySelectorAll('.holiday');
+
+	btnFeriado.addEventListener("click", function(){
+		for (index = 0; index < coloreFeriado.length; index++){
+			if (coloreFeriado[index].style.backgroundColor !== 'green'){
+				coloreFeriado[index].style.backgroundColor = 'green';
+			} else {
+				coloreFeriado[index].style.backgroundColor = 'rgb(238,238,238)';
+			}
+		}
+	});
+
+}
+
+alteraCor();
