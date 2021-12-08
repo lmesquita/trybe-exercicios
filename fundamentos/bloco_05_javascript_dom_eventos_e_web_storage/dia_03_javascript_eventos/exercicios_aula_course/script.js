@@ -93,6 +93,32 @@ function criaBotaoSextaFeira(string) {
 }
 
 let sextou = 'Sexta-feira';
-criaBotaoFeriado(sextou);
+criaBotaoSextaFeira(sextou);
 
 // ----------------------------------------
+
+// EXERCÍCIO 5 --------------------
+
+function modificaTexto() {
+	let btnSexta = document.getElementById('btn-friday');
+	let textoSextou = document.querySelectorAll('.friday');
+
+	btnSexta.addEventListener("click", function(){
+		for (index = 0; index < textoSextou.length; index++){
+			if (textoSextou[index].innerText !== 'Sextou'){
+				textoSextou[index].innerText = 'Sextou';
+			} else if (index === 0) {
+				textoSextou[index].innerText = 4;
+			} else if (index === 1) {
+				textoSextou[index].innerText = 11;
+			}else if (index === 2) {
+				textoSextou[index].innerText = 18;
+			}else if (index === 3) {
+				textoSextou[index].innerText = 25;
+			}
+		}
+	});
+
+}
+
+modificaTexto();
