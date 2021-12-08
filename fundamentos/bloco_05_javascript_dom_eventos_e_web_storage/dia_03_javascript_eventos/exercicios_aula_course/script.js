@@ -78,3 +78,21 @@ function alteraCor() {
 }
 
 alteraCor();
+
+// ----------------------------------------
+
+// EXERCÍCIO 4 --------------------
+
+function criaBotaoSextaFeira(string) {
+	let btnContainer = document.querySelector('.buttons-container');
+	let divBotao = document.createElement('button');
+	divBotao.innerText = string;
+	divBotao.id = 'btn-friday';
+
+	btnContainer.appendChild(divBotao);
+}
+
+let sextou = 'Sexta-feira';
+criaBotaoFeriado(sextou);
+
+// ----------------------------------------
