@@ -15,6 +15,8 @@ createDaysOfTheWeek();
 
 // Escreva seu código abaixo.
 
+// EXERCÍCIO 1 --------------------
+
 function createDaysOfTheMonth() {
     const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
     const monthDaysList  = document.querySelector('#days');
@@ -38,3 +40,19 @@ function createDaysOfTheMonth() {
   };
   
   createDaysOfTheMonth();
+
+	// ----------------------------------------
+
+// EXERCÍCIO 2 --------------------
+
+function criaBotaoFeriado(string) {
+	let btnContainer = document.querySelector('.buttons-container');
+	let divBotao = document.createElement('button');
+	divBotao.innerText = string;
+	divBotao.id = 'btn-holiday';
+
+	btnContainer.appendChild(divBotao);
+}
+
+let feriado = 'Feriados';
+criaBotaoFeriado(feriado);
