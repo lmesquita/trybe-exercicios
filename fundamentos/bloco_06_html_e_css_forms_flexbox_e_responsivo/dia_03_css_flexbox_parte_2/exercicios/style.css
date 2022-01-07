@@ -16,6 +16,7 @@ body {
 
 .header-container nav {
   order: 2;
+  align-self: center;
 }
 
 .header-container section {
