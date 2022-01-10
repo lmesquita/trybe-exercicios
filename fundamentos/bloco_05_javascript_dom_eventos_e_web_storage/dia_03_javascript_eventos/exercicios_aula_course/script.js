@@ -67,8 +67,8 @@ function alteraCor() {
 
 	btnFeriado.addEventListener("click", function(){
 		for (index = 0; index < coloreFeriado.length; index++){
-			if (coloreFeriado[index].style.backgroundColor !== 'green'){
-				coloreFeriado[index].style.backgroundColor = 'green';
+			if (coloreFeriado[index].style.backgroundColor !== 'white'){
+				coloreFeriado[index].style.backgroundColor = 'white';
 			} else {
 				coloreFeriado[index].style.backgroundColor = 'rgb(238,238,238)';
 			}
