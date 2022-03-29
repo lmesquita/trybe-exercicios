@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="stylesheet" src="/style.css">
+  <script src="/script.js"></script>
+  <title>Currículo</title>
+</head>
+<body>
+  <header>
+    <h1>Formulário de Currículo</h1>
+  </header>
+
+  <section>
+    <fieldset>
+      <div class="input-content">
+        <label for="nome">Nome</label>
+        <input type="text" maxlength="40" id="nome" placeholder="Insira seu nome completo" required>
+      </div>
+
+      <div class="input-content">
+        <label for="email">Email</label>
+        <input type="email" maxlength="50" id="email" placeholder="Insira seu email" required>
+      </div>
+
+      <div class="input-content">
+        <label for="cpf">CPF</label>
+        <input type="text" maxlength="11" id="cpf" placeholder="Insira seu cpf" required>
+        <span>Somente os números</span>
+      </div>
+
+      <div class="input-content">
+        <label for="endereco">Endereço</label>
+        <input type="text" maxlength="200" id="endereco" placeholder="Insira seu endereço" required>
+      </div>
+
+      <div class="input-content">
+        <label for="cidade">Cidade</label>
+        <input type="text" maxlength="28" id="cidade" placeholder="Insira sua cidade" required>
+      </div>
+
+      <div class="input-content">
+        <label for="estado">Estado</label>
+        <select id="estado" required>
+        </select>
+      </div>
+
+      <div class="input-content">
+        <p>Tipo de Moradia</p>
+        <input type="radio" id="casa" value="casa" name="tipoMoradia" required>
+        <label for="casa">Casa</label>
+        <input type="radio" id="apartamento" value="apartamento" name="tipoMoradia" required>
+        <label for="apartamento">Apartamento</label>
+      </div>
+
+    </fieldset>
+
+  </section>
+
+  <section>
+    <fieldset>
+      <div class="last-jobs-content">
+        <label for="resumoCurriculo">Resumo</label>
+        <textarea name="last-jobs" id="resumoCurriculo" maxlength="1000" placeholder="Insira o resumo do seu currículo" required></textarea>
+      </div>
+      <div class="last-jobs-content">
+        <label for="cargoLastJob">Cargo</label>
+        <input type="text" maxlength="40" id="cargoLastJob" placeholder="Insira seu último cargo" required>
+      </div>
+      <div class="last-jobs-content">
+        <label for="descricaoCargo">Cargo</label>
+        <input type="text" maxlength="500" id="descricaoCargo" placeholder="Insira a descrição do seu último cargo" required>
+      </div>
+      <div class="last-jobs-content">
+        <label for="dataInicio">Cargo</label>
+        <input type="text" maxlength="10" id="dataInicio" placeholder="Insira a data de início" required>
+        <span>dd/mm/aaaa</span>
+      </div>
+    </fieldset>
+  </section>
+
+  <footer>
+
+  </footer>
+  
+</body>
+</html>
