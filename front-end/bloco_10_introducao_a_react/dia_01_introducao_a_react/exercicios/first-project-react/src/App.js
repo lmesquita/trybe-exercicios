@@ -14,8 +14,7 @@ const createList = (compromisses) => compromisses.map((item) => Task(item))
 function App() {
   return (
     <div className="App">
-      <h1>Hello world!</h1>
-      
+      <h1>Hello world!</h1>      
       {createList(compromisses)}
     </div>
   );
